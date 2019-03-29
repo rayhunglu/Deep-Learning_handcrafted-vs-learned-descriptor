@@ -1,3 +1,3 @@
 # Deep-Learning_handcrafted-vs-learned-descriptor
 
-To comparing handcrafted and learned descriptor, we build the model based on sift for handcrafted descriptor and HardNet, MatchNet, ResNet and WorkHardNet, which is improved by ourselves, for learned descriptors.
+We represent the comparison between handcrafted descriptors and learned descriptors. SIFT is selected to be our hand-crafted descriptor. ResNet, HardNet, and MatchNet are chosen to be our learned descriptors. We also built a new network based on ResNet and call it PockNet. The performance of PockNet is second to HardNet for the testing on Notredame-FPR95, but worse than HardNet and MatchNet during the one-to-one matching test. The final result shows that learned descriptors are slightly better under our assumption. However, we validate that learned descriptors are useful in image query by one-to-one matching.
